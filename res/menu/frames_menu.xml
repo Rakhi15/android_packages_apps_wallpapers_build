@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@id/search" android:orderInCategory="100" android:title="@string/search" app:actionViewClass="jahirfiquitiva.libs.kext.ui.widgets.CustomSearchView" app:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/ic_refresh" android:id="@id/refresh" android:orderInCategory="200" android:title="@string/refresh" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_changes" android:id="@id/changelog" android:orderInCategory="300" android:title="@string/changelog" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_donate" android:id="@id/donate" android:orderInCategory="400" android:title="@string/donate" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_settings" android:id="@id/settings" android:orderInCategory="600" android:title="@string/settings" app:showAsAction="never" />
+</menu>
