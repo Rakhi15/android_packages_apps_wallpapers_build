@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/all_empty_views" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="96.0dip" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textStyle="italic" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_text" android:padding="36.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:lineSpacingMultiplier="1.2" />
+</LinearLayout>

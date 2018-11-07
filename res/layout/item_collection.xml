@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jahirfiquitiva.libs.kext.ui.widgets.LandscapeImageView android:id="@id/collection_picture" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:heightDivider="@dimen/heightDivider" />
+    <LinearLayout android:gravity="start|bottom|center" android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:id="@id/collection_details" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:baselineAligned="false">
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="16.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/collection_title" android:paddingLeft="@dimen/fabs_margin" android:paddingRight="@dimen/fabs_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/collection_walls_number" android:paddingLeft="@dimen/fabs_margin" android:paddingRight="@dimen/fabs_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/cards_margin" android:paddingBottom="@dimen/cards_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="88.0dip" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/fabs_margin" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textSize="16.0sp" android:ellipsize="end" android:id="@id/name" android:paddingLeft="@dimen/fabs_margin" android:paddingRight="@dimen/fabs_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textSize="14.0sp" android:ellipsize="end" android:id="@id/description" android:paddingLeft="@dimen/fabs_margin" android:paddingRight="@dimen/fabs_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cards_margin" android:maxLines="4" />
+        <jahirfiquitiva.libs.kext.ui.layouts.SplitButtonsLayout android:gravity="start" android:layout_gravity="start" android:orientation="horizontal" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/fabs_margin" />
+    </LinearLayout>
+</LinearLayout>

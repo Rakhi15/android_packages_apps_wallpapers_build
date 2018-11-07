@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jahirfiquitiva.libs.kext.ui.layouts.FixedElevationAppBarLayout android:id="@id/appbar" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" app:layout_scrollFlags="enterAlways|scroll" app:popupTheme="?popupMenuStyle" />
+        <jahirfiquitiva.libs.kext.ui.layouts.CustomTabLayout android:id="@id/tabs" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabMode="fixed" />
+    </jahirfiquitiva.libs.kext.ui.layouts.FixedElevationAppBarLayout>
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>
