@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:id="@id/bottom_bar_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:background="@drawable/gradient" android:paddingTop="@dimen/cards_margin" android:paddingBottom="@dimen/cards_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/cards_margin" android:paddingEnd="@dimen/cards_margin">
+        <RelativeLayout android:id="@id/info_container" android:background="?selectableItemBackgroundBorderless" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/info_button" android:padding="@dimen/cards_margin" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cards_margin" android:layout_marginBottom="@dimen/cards_margin" android:layout_centerInParent="true" android:contentDescription="@string/info" app:srcCompat="@drawable/ic_info" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/download_container" android:background="?selectableItemBackgroundBorderless" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/download_button" android:padding="@dimen/cards_margin" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cards_margin" android:layout_marginBottom="@dimen/cards_margin" android:layout_centerInParent="true" android:contentDescription="@string/download" app:srcCompat="@drawable/ic_download" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/apply_container" android:background="?selectableItemBackgroundBorderless" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/apply_button" android:padding="@dimen/cards_margin" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cards_margin" android:layout_marginBottom="@dimen/cards_margin" android:layout_centerInParent="true" android:contentDescription="@string/apply" app:srcCompat="@drawable/ic_apply_wallpaper" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/fav_container" android:background="?selectableItemBackgroundBorderless" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/fav_button" android:padding="@dimen/cards_margin" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cards_margin" android:layout_marginBottom="@dimen/cards_margin" android:layout_centerInParent="true" android:contentDescription="@string/favorite" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

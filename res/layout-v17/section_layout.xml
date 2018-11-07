@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_layout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls" android:splitMotionEvents="false" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/extra_empty_views" />
+    <jahirfiquitiva.libs.frames.ui.widgets.EmptyViewRecyclerView android:gravity="center" android:layout_gravity="center" android:id="@id/list_rv" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:overScrollMode="ifContentScrolls" android:splitMotionEvents="false" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.pluscubed.recyclerfastscroll.RecyclerFastScroller android:layout_gravity="end" android:id="@id/fast_scroller" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>
